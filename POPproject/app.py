@@ -8,8 +8,7 @@ from folium.plugins import HeatMap
 import random
 import os
 
-app = Flask(__name__)
-
+app = Flask(__name__) 
 DATA_FILE = "data.csv"
 
 if not os.path.exists(DATA_FILE):
